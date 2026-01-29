@@ -28,10 +28,12 @@ const card: Card = {
 	energyType: "Normal",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 740809
