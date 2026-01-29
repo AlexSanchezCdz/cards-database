@@ -69,6 +69,19 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 	illustrator: "GOSSAN"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pokemon-center']
+		}
+	]
 }
 
 export default card

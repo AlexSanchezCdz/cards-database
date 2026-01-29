@@ -63,13 +63,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants:[
+	variants: [
 		{
-			type: "holo",
+			type: 'holo',
+			size: 'standard'
 		},
 		{
-			type: "lenticular",
-			size: "jumbo"
+			type: 'normal',
+			size: 'jumbo'
 		}
 	]
 }

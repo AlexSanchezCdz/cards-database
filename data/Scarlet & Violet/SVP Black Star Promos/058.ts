@@ -69,6 +69,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Lee HyunJung"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
+		}
+	]
 }
 
 export default card

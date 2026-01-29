@@ -67,6 +67,14 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "G",
 	illustrator: "Natsumi Yoshida"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

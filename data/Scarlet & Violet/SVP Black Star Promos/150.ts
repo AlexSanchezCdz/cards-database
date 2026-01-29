@@ -28,6 +28,20 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "H",
 	illustrator: "Naoki Saito"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['worlds']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['staff', 'worlds']
+		}
+	]
 }
 
 export default card

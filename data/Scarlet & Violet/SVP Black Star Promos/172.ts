@@ -77,6 +77,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Susumu Maeya"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'cosmos'
+		}
+	]
 }
 
 export default card

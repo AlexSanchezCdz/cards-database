@@ -40,17 +40,15 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
-			stamp: [{
-				stamp: "worlds",
-				year: 2025
-			}]
+			type: 'normal',
+			size: 'standard',
+			stamp: ['worlds']
 		},
 		{
-			type: "reverse",
-			foil: "league",
-			stamp: ["winner"]
-		},
+			type: 'normal',
+			size: 'standard',
+			stamp: ['winner']
+		}
 	]
 }
 

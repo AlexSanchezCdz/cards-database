@@ -77,6 +77,20 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "KEIICHIRO ITO"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
+		}
+	]
 }
 
 export default card

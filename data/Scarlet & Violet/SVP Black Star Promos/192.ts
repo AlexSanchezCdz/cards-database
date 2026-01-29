@@ -36,10 +36,11 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants:[
+	variants: [
 		{
-			type: "holo",
-			stamp: ["horizons"]
+			type: 'holo',
+			size: 'standard',
+			foil: 'speckle'
 		}
 	]
 }

@@ -128,7 +128,11 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"tinsel": "tinsel",
+		"mirage": "mirage",
+		"speckle": "speckle",
+		"vertical-lines": "vertical-lines"
 	},
 	"variantStamp": {
 		"1st-edition": "1. Auflage",
@@ -215,7 +219,17 @@
 		"eb-games": "EB Games",
 		"snowflake": "Schneeflocke",
 		"horizons": "horizons",
-		"top-eight": "top-eight"
+		"top-eight": "top-eight",
+		"battle-academy": "battle-academy",
+		"iono-zone": "iono-zone",
+		"holiday-calendar": "holiday-calendar",
+		"rain-city": "rain-city",
+		"tord-reklev": "tord-reklev",
+		"gabriel-fernandez": "gabriel-fernandez",
+		"vance-kelley": "vance-kelley",
+		"shao-tong-yen": "shao-tong-yen",
+		"7-eleven": "7-eleven",
+		"gym": "gym"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",

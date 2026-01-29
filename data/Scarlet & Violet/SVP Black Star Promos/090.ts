@@ -68,6 +68,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Uta"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
+		}
+	]
 }
 
 export default card

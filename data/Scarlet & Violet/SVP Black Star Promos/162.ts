@@ -55,6 +55,18 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "takuyoa"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'jumbo'
+		}
+	]
 }
 
 export default card

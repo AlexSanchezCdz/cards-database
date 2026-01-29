@@ -67,6 +67,14 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "PLANETA Mochizuki"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

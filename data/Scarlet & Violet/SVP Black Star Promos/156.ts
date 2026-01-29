@@ -68,6 +68,14 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "Saboteri"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

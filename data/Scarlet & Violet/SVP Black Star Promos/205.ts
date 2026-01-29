@@ -61,11 +61,12 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
+			size: 'standard'
 		},
 		{
-			type: "holo",
-			size: "jumbo"
+			type: 'normal',
+			size: 'jumbo'
 		}
 	]
 }

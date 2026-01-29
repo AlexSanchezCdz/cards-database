@@ -46,8 +46,9 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
-			subtype: "cosmos"
+			type: 'holo',
+			size: 'standard',
+			foil: 'cosmos'
 		}
 	]
 }

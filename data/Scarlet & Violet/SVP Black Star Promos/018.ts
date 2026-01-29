@@ -69,6 +69,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "5ban Graphics"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'jumbo'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		}
+	]
 }
 
 export default card

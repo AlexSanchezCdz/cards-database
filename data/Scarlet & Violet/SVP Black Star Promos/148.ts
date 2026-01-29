@@ -51,6 +51,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "hncl"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 23, year: 2024 }]
+		}
+	]
 }
 
 export default card

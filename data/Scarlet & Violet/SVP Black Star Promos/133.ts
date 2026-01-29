@@ -77,6 +77,20 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "H",
 	illustrator: "Natsumi Yoshida"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
+		}
+	]
 }
 
 export default card

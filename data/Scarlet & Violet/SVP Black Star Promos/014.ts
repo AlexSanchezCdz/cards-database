@@ -60,6 +60,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Mina Nakai"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pokemon-center']
+		}
+	]
 }
 
 export default card

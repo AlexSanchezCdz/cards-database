@@ -36,6 +36,15 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['worlds']
+		}
+	]
 }
 
 export default card

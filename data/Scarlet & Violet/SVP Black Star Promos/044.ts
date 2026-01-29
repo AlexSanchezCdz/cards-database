@@ -47,6 +47,19 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "MINAMINAMI Take"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pokemon-center']
+		}
+	]
 }
 
 export default card

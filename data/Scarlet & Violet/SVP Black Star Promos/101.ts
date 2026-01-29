@@ -47,6 +47,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Jiro Sasumo"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			foil: 'player-reward'
+		}
+	]
 }
 
 export default card

@@ -69,6 +69,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Tonji Matsuno"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
+		}
+	]
 }
 
 export default card

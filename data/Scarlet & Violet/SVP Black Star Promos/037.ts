@@ -43,6 +43,20 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "G",
 	illustrator: "Mina Nakai"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
+		}
+	]
 }
 
 export default card

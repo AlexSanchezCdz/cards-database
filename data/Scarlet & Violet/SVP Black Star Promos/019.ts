@@ -68,6 +68,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Oswaldo KATO"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
+		}
+	]
 }
 
 export default card

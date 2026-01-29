@@ -47,6 +47,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "NC Empire"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'cosmos'
+		}
+	]
 }
 
 export default card

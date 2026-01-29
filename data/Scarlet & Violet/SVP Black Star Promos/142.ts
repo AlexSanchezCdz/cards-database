@@ -69,6 +69,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Saki Hayashiro"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

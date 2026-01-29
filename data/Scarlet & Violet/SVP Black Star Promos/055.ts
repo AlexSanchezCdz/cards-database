@@ -67,6 +67,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "N-DESIGN Inc."
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

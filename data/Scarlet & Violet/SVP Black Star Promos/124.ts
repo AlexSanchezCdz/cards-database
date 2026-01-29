@@ -28,6 +28,14 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "G",
 	illustrator: "yuu"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

@@ -68,6 +68,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "0313"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

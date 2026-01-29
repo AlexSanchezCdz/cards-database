@@ -69,6 +69,18 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "aky CG Works"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'jumbo'
+		}
+	]
 }
 
 export default card

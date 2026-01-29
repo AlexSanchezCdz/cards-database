@@ -19,54 +19,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
-			stamp: [{
-				stamp: "worlds",
-				year: 2025
-			}]
-		},
-		{
-			type: "normal",
-			stamp: [{
-				stamp: "worlds",
-				year: 2025
-			}, "staff"]
-		},
-		{
-			type: "normal",
-			stamp: [{
-				stamp: "worlds",
-				year: 2025
-			}, "top-thirty-two"]
-		},
-		{
-			type: "normal",
-			stamp: [{
-				stamp: "worlds",
-				year: 2025
-			}, "top-sixteen"]
-		},
-		{
-			type: "normal",
-			stamp: [{
-				stamp: "worlds",
-				year: 2025
-			}, "top-eight"]
-		},
-		{
-			type: "normal",
-			stamp: [{
-				stamp: "worlds",
-				year: 2025
-			}, "semi-finalist"]
-		},
-		{
-			type: "normal",
-			stamp: [{
-				stamp: "worlds",
-				year: 2025
-			}, "finalist"]
-		},
+			type: 'normal',
+			size: 'standard',
+			stamp: ['worlds']
+		}
 	]
 }
 

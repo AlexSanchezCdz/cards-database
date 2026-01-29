@@ -39,12 +39,9 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
-			stamp: [{
-				stamp: "illustration-contest",
-				year: 2024
-			}]
-		},
+			type: 'normal',
+			size: 'standard'
+		}
 	]
 }
 

@@ -59,6 +59,25 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Akira Komayama"
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 37, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 5, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 53, year: 2024 }]
+		}
+	]
 }
 
 export default card

@@ -47,6 +47,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Ryuta Fuse"
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'mirage'
+		}
+	]
 }
 
 export default card
