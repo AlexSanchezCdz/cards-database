@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
+	dexId: [551],
 
 	attacks: [{
 		cost: ["Darkness"],
@@ -51,7 +52,11 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	thirdParty: {
+		cardmarket: 857639
+	}
 }
 
 export default card

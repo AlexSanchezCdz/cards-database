@@ -13,6 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 260,
 	types: ["Lightning"],
+	evolveFrom: {
+		en: "Toxel",
+		fr: "Toxizap",
+		es: "Toxel",
+		it: "Toxel",
+		pt: "Toxel",
+		de: "Toxel"
+	},
 	stage: "Stage1",
 	illustrator: "Anderson",
 	dexId: [849],
@@ -43,7 +51,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2024"]
+			stamp: [{
+				stamp: "illustration-contest",
+				year: 2024
+			}]
 		},
 	]
 }

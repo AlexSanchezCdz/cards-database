@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
+	dexId: [921],
 
 	attacks: [{
 		cost: ["Lightning"],
@@ -59,7 +60,11 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	thirdParty: {
+		cardmarket: 857607
+	}
 }
 
 export default card

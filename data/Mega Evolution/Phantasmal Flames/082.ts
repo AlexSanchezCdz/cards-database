@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	stage: "Stage1",
+	dexId: [264],
 
 	abilities: [{
 		type: "Ability",
@@ -61,7 +62,11 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	thirdParty: {
+		cardmarket: 857657
+	}
 }
 
 export default card

@@ -19,6 +19,7 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",
+	dexId: [947],
 
 	abilities: [{
 		type: "Ability",
@@ -61,7 +62,11 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	thirdParty: {
+		cardmarket: 857622
+	}
 }
 
 export default card

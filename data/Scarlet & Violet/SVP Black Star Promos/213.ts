@@ -11,13 +11,21 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
+	evolveFrom: {
+		en: "Croconaw",
+		fr: "Crocrodil",
+		es: "Croconaw",
+		it: "Croconaw",
+		pt: "Croconaw",
+		de: "Tyracroc"
+	},
 	stage: "Stage2",
 	illustrator: "Acorviart",
 	dexId: [160],
 
 	attacks: [
 		{
-			cost: ["Water","Water","Water","Colorless"],
+			cost: ["Water", "Water", "Water", "Colorless"],
 			name: {
 				en: "Deep Submergence",
 			},
@@ -42,7 +50,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2024"]
+			stamp: [{
+				stamp: "illustration-contest",
+				year: 2024
+			}]
 		},
 	]
 }
