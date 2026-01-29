@@ -18,10 +18,12 @@ const card: Card = {
 	types: ["Grass"],
 	energyType: "Normal",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 715753

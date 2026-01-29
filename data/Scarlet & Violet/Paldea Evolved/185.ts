@@ -32,6 +32,59 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 715660
 	}
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['iono-zone']
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			stamp: ['player-rewards-program'],
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['regional-championships']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['staff', 'regional-championships']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['gabriel-fernandez']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['vance-kelley']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['tord-reklev']
+		}
+	]
 }
 
 export default card

@@ -60,10 +60,17 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'holiday-calendar', year: 2024 }]
+		}
+	],
 
 	illustrator: "N-DESIGN Inc.",
 

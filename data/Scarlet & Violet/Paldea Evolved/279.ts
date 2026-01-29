@@ -18,10 +18,12 @@ const card: Card = {
 	types: ["Water"],
 	energyType: "Normal",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 715754

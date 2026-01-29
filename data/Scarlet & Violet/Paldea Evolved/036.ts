@@ -59,9 +59,31 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 15, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 30, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 51, year: 2024 }]
+		}
+	],
 
 	illustrator: "Hitoshi Ariga",
 

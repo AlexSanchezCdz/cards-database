@@ -28,9 +28,61 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 33, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 43, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 48, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 55, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 29, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 38, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 49, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 57, year: 2024 }]
+		}
+	],
 
 	illustrator: "Studio Bora Inc.",
 

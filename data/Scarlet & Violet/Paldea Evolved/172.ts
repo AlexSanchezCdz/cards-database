@@ -28,9 +28,51 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			stamp: ['player-rewards-program'],
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['gabriel-fernandez']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['vance-kelley']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['tord-reklev']
+		}
+	],
 
 	illustrator: "NC Empire",
 

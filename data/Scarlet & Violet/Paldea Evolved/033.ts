@@ -60,9 +60,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		}
+	],
 
 	illustrator: "Haru Akasaka",
 

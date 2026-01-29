@@ -69,9 +69,25 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	],
 
 	illustrator: "Hitoshi Ariga",
 

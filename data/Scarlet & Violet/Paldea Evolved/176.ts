@@ -28,9 +28,21 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['vance-kelley']
+		}
+	],
 
 	illustrator: "Studio Bora Inc.",
 

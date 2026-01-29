@@ -51,9 +51,36 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 1, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 30, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 34, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 55, year: 2024 }]
+		}
+	],
 
 	illustrator: "sui",
 

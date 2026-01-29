@@ -28,9 +28,21 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['gabriel-fernandez']
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 715668
