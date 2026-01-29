@@ -71,7 +71,9 @@ interface variant_detailed {
 		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
 		| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
 		| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
-		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight'
+		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | 'battle-academy' | 'iono-zone' | 'holiday-calendar' 
+		| 'pokemon-horizons' | 'rain-city' | 'tord-reklev' | 'gabriel-fernandez' | 'vance-kelley' | 'shao-tong-yen' | '7-eleven'
+		| 'gym'
 	>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
