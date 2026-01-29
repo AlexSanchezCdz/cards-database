@@ -81,23 +81,33 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
-		},
-		{
 			type: 'holo',
-			stamp: ["set-logo"]
+			size: 'standard'
 		},
 		{
-			type: 'holo',
-			stamp: ["gamestop"]
+			type: 'reverse',
+			size: 'standard'
 		},
 		{
-			type: 'holo',
-			stamp: ["eb-games"]
+			type: 'normal',
+			size: 'standard',
+			stamp: ['eb-games']
 		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['gamestop']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['set-logo']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

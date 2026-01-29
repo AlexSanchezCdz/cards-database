@@ -90,18 +90,17 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
-		},
-		{
 			type: 'holo',
-			foil: 'cosmos'
+			size: 'standard'
 		},
 		{
-			type: 'normal'
+			type: 'reverse',
+			size: 'standard'
 		},
+		{
+			type: 'normal',
+			size: 'standard'
+		}
 	]
 }
 

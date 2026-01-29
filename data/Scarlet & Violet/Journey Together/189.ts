@@ -89,8 +89,8 @@ const card: Card = {
 	variants: [
 		{
 			type: 'holo',
-			foil: 'gold'
-		},
+			size: 'standard'
+		}
 	]
 }
 

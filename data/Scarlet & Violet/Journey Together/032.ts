@@ -69,15 +69,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: 'normal',
+			size: 'standard'
 		},
 		{
-			type: 'reverse'
+			type: 'reverse',
+			size: 'standard'
 		},
 		{
-			type: 'holo',
-			stamp: ["snowflake"]
-		},
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'holiday-calendar', year: 2025 }]
+		}
 	]
 }
 

@@ -90,8 +90,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: 'holo',
+			size: 'standard'
 		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		}
 	]
 }
 

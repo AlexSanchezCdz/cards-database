@@ -37,11 +37,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: 'normal',
+			size: 'standard'
 		},
 		{
-			type: 'reverse'
+			type: 'reverse',
+			size: 'standard'
 		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['regional-championships']
+		}
 	]
 }
 

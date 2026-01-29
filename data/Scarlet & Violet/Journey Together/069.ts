@@ -79,8 +79,19 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo'
+			type: 'holo',
+			size: 'standard'
 		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['set-logo']
+		},
+		{
+			type: 'normal',
+			size: 'jumbo',
+			stamp: ['set-logo']
+		}
 	]
 }
 
