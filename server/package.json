@@ -11,7 +11,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"@cachex/memory": "^1.0.1",
-		"@dzeio/config": "^1.1.12",
+		"@dzeio/config": "^1.1.8",
 		"@dzeio/object-util": "^1.9.1",
 		"@dzeio/queue": "^1.2.1",
 		"@sentry/node": "^8.55.0",
