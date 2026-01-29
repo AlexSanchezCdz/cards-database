@@ -76,11 +76,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: 'holo',
+			size: 'standard'
 		},
 		{
-			type: 'holo'
+			type: 'reverse',
+			size: 'standard'
 		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'vertical-lines'
+		}
 	],
 
 	illustrator: "AKIRA EGAWA",

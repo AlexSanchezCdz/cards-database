@@ -76,10 +76,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 702419

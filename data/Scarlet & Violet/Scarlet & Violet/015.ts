@@ -65,10 +65,26 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'cosmos'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'starlight'
+		}
+	],
 
 	illustrator: "Ryota Murayama",
 

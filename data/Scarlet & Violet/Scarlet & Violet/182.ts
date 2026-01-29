@@ -28,9 +28,37 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			stamp: ['player-rewards-program'],
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['shao-tong-yen']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['vance-kelley']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['tord-reklev']
+		}
+	],
 
 	illustrator: "Studio Bora Inc.",
 

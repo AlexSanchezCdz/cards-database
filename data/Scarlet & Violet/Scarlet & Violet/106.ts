@@ -63,10 +63,21 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'trick-or-trade', year: 2023 }]
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 702402

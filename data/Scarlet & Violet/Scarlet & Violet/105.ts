@@ -69,9 +69,21 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'mirage'
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 701132

@@ -66,9 +66,21 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Anesaki Dynamic",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 702429

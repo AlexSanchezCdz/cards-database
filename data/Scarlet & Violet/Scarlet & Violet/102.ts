@@ -58,9 +58,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 702396

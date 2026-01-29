@@ -76,11 +76,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: 'holo',
+			size: 'standard'
 		},
 		{
-			type: 'holo'
+			type: 'reverse',
+			size: 'standard'
 		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		}
 	],
 
 	illustrator: "Shinji Kanda",

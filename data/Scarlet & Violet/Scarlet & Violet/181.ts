@@ -28,9 +28,77 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 45, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'battle-academy', detail: 44, year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['regional-championships']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['staff', 'regional-championships']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['regional-championships']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['staff', 'regional-championships']
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			stamp: ['player-rewards-program'],
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['gabriel-fernandez']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['shao-tong-yen']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['vance-kelley']
+		}
+	],
 
 	illustrator: "Toyste Beach",
 
