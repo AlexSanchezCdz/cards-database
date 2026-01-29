@@ -77,10 +77,22 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['set-logo']
+		},
+		{
+			type: 'normal',
+			size: 'jumbo',
+			stamp: ['set-logo']
+		}
+	],
 
 	illustrator: "Saki Hayashiro",
 

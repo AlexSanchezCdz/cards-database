@@ -77,10 +77,17 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'holiday-calendar', year: 2025 }]
+		}
+	],
 
 	illustrator: "Mitsuhiro Arita",
 
