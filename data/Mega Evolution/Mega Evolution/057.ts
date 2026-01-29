@@ -55,6 +55,18 @@ const card: Card = {
 		tcgplayer: 654396,
 		cardmarket: 851128
 	}
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

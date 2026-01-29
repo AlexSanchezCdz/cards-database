@@ -79,6 +79,24 @@ const card: Card = {
 		cardmarket: 851158,
 		tcgplayer: 654426
 	}
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['trick-or-trade'],
+			foil: 'player-reward'
+		}
+	]
 }
 
 export default card

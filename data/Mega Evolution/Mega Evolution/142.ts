@@ -86,6 +86,14 @@ const card: Card = {
 		tcgplayer: 654481,
 		cardmarket: 851213
 	}
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		}
+	]
 }
 
 export default card

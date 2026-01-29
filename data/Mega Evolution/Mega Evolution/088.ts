@@ -69,6 +69,23 @@ const card: Card = {
 		tcgplayer: 654427,
 		cardmarket: 851159
 	}
+,
+
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['gamestop']
+		}
+	]
 }
 
 export default card
