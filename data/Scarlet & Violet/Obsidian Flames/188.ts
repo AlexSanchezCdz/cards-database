@@ -28,9 +28,26 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['regional-championships']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['staff', 'regional-championships']
+		}
+	],
 
 	illustrator: "kirisAki",
 
