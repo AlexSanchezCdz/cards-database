@@ -67,9 +67,41 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['eb-games']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['gamestop']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'trick-or-trade', year: 2024 }]
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['set-logo']
+		}
+	],
 
 	illustrator: "Sanosuke Sakuma",
 

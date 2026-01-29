@@ -28,9 +28,16 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 769340
