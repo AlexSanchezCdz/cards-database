@@ -47,10 +47,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['set-logo']
+		},
+		{
+			type: 'normal',
+			size: 'jumbo',
+			stamp: ['set-logo']
+		}
+	],
 
 	illustrator: "5ban Graphics",
 
