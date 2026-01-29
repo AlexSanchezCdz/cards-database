@@ -60,9 +60,25 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard'
+		}
+	],
 
 	illustrator: "Takeshi Nakamura",
 
