@@ -58,9 +58,26 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard',
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: [{ stamp: 'trick-or-trade', year: 2024 }]
+		}
+	],
 
 	illustrator: "OKACHEKE",
 

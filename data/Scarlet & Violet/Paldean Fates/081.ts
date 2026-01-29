@@ -28,9 +28,22 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'holo',
+			size: 'standard',
+			stamp: ['player-rewards-program'],
+			foil: 'cosmos'
+		}
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 
