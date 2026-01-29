@@ -28,10 +28,12 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		}
+	],
 
 	illustrator: "Toyste Beach",
 

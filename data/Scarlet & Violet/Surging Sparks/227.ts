@@ -77,10 +77,12 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		}
+	],
 
 	illustrator: "PLANETA Igarashi",
 

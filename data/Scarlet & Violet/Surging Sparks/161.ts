@@ -58,9 +58,26 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['horizons']
+		}
+	],
 
 	illustrator: "GIDORA",
 
