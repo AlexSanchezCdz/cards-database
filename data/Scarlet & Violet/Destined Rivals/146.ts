@@ -52,11 +52,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: 'holo',
+			size: 'standard'
 		},
 		{
-			type: 'reverse'
-		},
+			type: 'reverse',
+			size: 'standard'
+		}
 	],
 
 	thirdParty: {

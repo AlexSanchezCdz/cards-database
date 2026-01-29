@@ -31,11 +31,13 @@ const card: Card = {
 	regulationMark: "G",
 	variants: [
 		{
-			type: 'normal'
+			type: 'normal',
+			size: 'standard'
 		},
 		{
-			type: 'reverse'
-		},
+			type: 'reverse',
+			size: 'standard'
+		}
 	],
 
 	thirdParty: {

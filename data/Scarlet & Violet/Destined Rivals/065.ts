@@ -85,11 +85,9 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
-		},
+			type: 'holo',
+			size: 'standard'
+		}
 	],
 
 	thirdParty: {

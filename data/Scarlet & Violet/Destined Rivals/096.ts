@@ -85,19 +85,37 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: 'holo',
+			size: 'standard'
 		},
 		{
-			type: 'reverse'
+			type: 'reverse',
+			size: 'standard'
 		},
 		{
 			type: 'holo',
-			stamp: ["set-logo"]
+			size: 'standard',
+			foil: 'cosmos'
 		},
 		{
-			type: 'holo',
-			stamp: ["set-logo", "staff"]
+			type: 'normal',
+			size: 'standard'
 		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pokemon-center']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
+		}
 	],
 
 	thirdParty: {

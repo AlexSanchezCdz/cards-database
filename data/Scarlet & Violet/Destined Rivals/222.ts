@@ -31,8 +31,9 @@ const card: Card = {
 	regulationMark: "G",
 	variants: [
 		{
-			type: 'holo'
-		},
+			type: 'holo',
+			size: 'standard'
+		}
 	],
 
 	thirdParty: {

@@ -75,23 +75,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
-		},
-		{
 			type: 'holo',
-			stamp: [
-				"set-logo"
-			]
+			size: 'standard'
 		},
 		{
-			type: 'holo',
-			stamp: [
-				"set-logo",
-				"staff"
-			]
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release']
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['pre-release', 'staff']
 		}
 	],
 
