@@ -67,6 +67,18 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 857622
 	}
+,
+
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		}
+	]
 }
 
 export default card
