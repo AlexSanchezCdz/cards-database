@@ -47,9 +47,26 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard'
+		},
+		{
+			type: 'reverse',
+			size: 'standard',
+			foil: 'cosmos'
+		},
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['set-logo']
+		}
+	],
 
 	illustrator: "Yuu Nishida",
 
