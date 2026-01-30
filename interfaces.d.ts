@@ -23,7 +23,7 @@ export type Stamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center
 	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
 	| 'illustration-contest' | 'top-eight' | 'battle-academy' | 'iono-zone' | 'holiday-calendar' 
 	| 'rain-city' | 'tord-reklev' | 'gabriel-fernandez' | 'vance-kelley' | 'shao-tong-yen' | '7-eleven'
-	| 'gym'
+	| 'gym' | 'pokemon-together'
 
 export interface Serie {
 	id: string

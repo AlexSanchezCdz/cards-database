@@ -218,6 +218,7 @@
 		"gamestop": "GameStop",
 		"eb-games": "EB Games",
 		"snowflake": "Schneeflocke",
+		"trick-or-trade": "trick-or-trade",
 		"horizons": "horizons",
 		"top-eight": "top-eight",
 		"battle-academy": "battle-academy",
@@ -229,7 +230,8 @@
 		"vance-kelley": "vance-kelley",
 		"shao-tong-yen": "shao-tong-yen",
 		"7-eleven": "7-eleven",
-		"gym": "gym"
+		"gym": "gym",
+		"pokemon-together": "pokemon-together"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",
